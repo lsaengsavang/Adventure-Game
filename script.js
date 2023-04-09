@@ -1,18 +1,18 @@
 const gameConfig = [
   {
     choice: "Start",
-    prompt: "A dragon is in front of you!",
-    options: ["Run", "Fight"]
+    prompt: "A huge dog runs up to you!",
+    options: ["Run", "Hold out your hand"]
   },
   {
     choice: "Run",
-    prompt: "There's a wall in front of you.",
-    options: ["Climb", "Go around"]
+    prompt: "You run down the street, but you hit a dead end.",
+    options: ["Go back", "Stay"]
   },
   {
-    choice: "Fight",
-    prompt: "The dragon breathes fire!",
-    options: ["Duck", "Jump"]
+    choice: "Hold out your hand",
+    prompt: "The dog licks your hand, leaving a thick coating of slobber.",
+    options: ["Continue petting the dog", "Wipe off your hand"]
   }
 ];
 
