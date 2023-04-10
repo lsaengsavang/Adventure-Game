@@ -1,3 +1,7 @@
 body {
   font-family: Roboto;
 }
+
+.drop-down, .enter-button {
+  font-size: 18px;
+}
