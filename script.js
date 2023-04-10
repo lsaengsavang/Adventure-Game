@@ -51,7 +51,7 @@ const gameConfig = [
   },
   {
     choice: "Ask her to join",
-    prompt: "You tell her that you recognize the farm. She accepts and helps you find the treasure. You spend hours walking around the farm, splitting up to hopefully find it faster. Eventually, you see rocks in an X shape in the dirt. If you call Sarah over, you will have to share the gold with her.",
+    prompt: "She accepts and helps you find the treasure. Together, you spend hours walking around the farm but split up to speed up the search. Eventually, you see rocks in an X shape in the dirt. Sarah is no where to be seen. If you call Sarah over, you will have to share the gold with her.",
     options: ["Share with Sarah", "Don't share with Sarah"]
   },
   {
