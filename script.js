@@ -100,12 +100,12 @@ const gameConfig = [
     options: ["Meet the fairies","Meet the leprechaun"]
   },
   {
-    choice: "Visit her friends",
+    choice: "Meet the fairies",
     prompt: "Fawn flies away and comes back with her friends. They make both of you flower crowns and gently place them on your heads. They fly around you, giggling and playing with Spike. You and Spike leave for the day, but always make time to see your new fairy friends.END ",
     options: ["Restart"]
   },
   {
-    choice: "Visit the leprechaun",
+    choice: "Meet the leprechaun",
     prompt: "Fawn takes you down to the leprechaun's home. She introduces you, and he welcomes you with open arms. You are amazed with his interior design skills, and he offers to decorate your house. You take him up on his offer and he leaves you with a beautiful cottagecore home. END",
     options: ["Restart"]
   },
