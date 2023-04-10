@@ -46,18 +46,18 @@ const gameConfig = [
   },
   {
     choice: "Go to the tent",
-    prompt: "You walk up to the tent and see a woman walk out of the tent. Her name is Sarah. She invites you to sit at the campfire. She tells you the local legend of a buried treasure guarded by a magical troll. You recall a farm that sounds similar to the farm in the story. She tells you that it is her lifelong dream to find it. Do you ask her to join you or keep it to yourself?",
+    prompt: "You walk up to the tent and see a woman walk out of it. Her name is Sarah. She invites you to sit at the campfire. She tells you the local legend of a buried treasure guarded by a magical troll. You recall a farm that sounds similar to the farm in the story. She tells you that it is her lifelong dream to find it. Do you ask her to join you or keep it to yourself?",
     options: ["Ask her to join", "Keep it to yourself"]
   },
   {
     choice: "Ask her to join",
-    prompt: "She accepts and helps you find the treasure. Together, you spend hours walking around the farm but split up to speed up the search. Eventually, you see rocks in an X shape in the dirt. Sarah is no where to be seen. If you call Sarah over, you will have to share the gold with her.",
+    prompt: "She accepts to help you find the treasure. Together, you spend hours walking around the farm but split up to speed up the search. Eventually, you see rocks in an X shape in the dirt. Sarah is no where to be seen. If you call Sarah over, you will have to share the gold with her.",
     options: ["Share with Sarah", "Don't share with Sarah"]
   },
   {
     choice: "Don't share with Sarah",
-    prompt: "You quietly dig up the dirt alone, but the dirt is so compacted that you become exhausted and faint. You wake up to a troll standing over you and an empty hole beside you. The trolls tells you that he has powers to you listen to your selfish thoughts. As punishment, he gave Sarah the treasure.",
-    options: ["Go home", "Attack the troll"]
+    prompt: "You quietly dig up the dirt alone, but the dirt is so compacted that you become exhausted and faint. You wake up to a troll standing over you and an empty hole beside you. The troll tells you that he has powers to listen to your selfish thoughts. As punishment, he gave Sarah the treasure.",
+    options: ["Return home", "Attack the troll"]
   },
   {
     choice: "Attack the troll",
@@ -65,7 +65,7 @@ const gameConfig = [
     options: ["Restart"]
   },
   {
-    choice: "Go home",
+    choice: "Return home",
     prompt: "You are scolded by the troll for being selfish. You leave empty-handed. As you drive home, you reflect on your behavior. You change for the better after your revelation. Months later, you hear news of Sarah opening a charity in town.",
     options: ["Restart"]
   },
