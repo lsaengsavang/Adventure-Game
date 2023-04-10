@@ -97,7 +97,7 @@ const gameConfig = [
   {
     choice: "Don't let him",
     prompt: "You continue to hold him back. The tiny door opens, revealing a little fairy! She cautiously flies over to you. Her name is Fawn. She tells you about her fairy friends and a leprechaun who also lives at the lake.",
-    options: ["Visit her friends","Visit the leprechaun"]
+    options: ["Meet the fairies","Meet the leprechaun"]
   },
   {
     choice: "Visit her friends",
