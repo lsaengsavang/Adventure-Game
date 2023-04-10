@@ -11,12 +11,12 @@ const gameConfig = [
   },
   {
     choice: "Go to the trail",
-    prompt: "You follow the trail and find a cave. You quietly sneak into the cave and find a wizard mixing a cauldron. Do you approach him?",
+    prompt: "You follow the trail and find a cave. You quietly sneak into the cave, following a strange fog coming from around the corner. You peak and find a wizard mixing a mysterious cauldron. Do you approach him?",
     options: ["Talk to the wizard", "Avoid the wizard"]
   },
   {
     choice: "Talk to the wizard",
-    prompt: "You approach the wizard, Merlin, and he welcomes you into his cave. He shares that he has been residing in the cave to practice his spells and potion brewing. He says he is making a special brew and pours you a glass.",
+    prompt: "You approach the wizard, Merlin, and he welcomes you into his cave. He shares that he has been residing in the cave to practice his spells and potion brewing. He says he is making a special brew and pours you a glass. He doesn't ",
     options: ["Drink it", "Refuse to drink it"]
   },
   {
@@ -31,7 +31,12 @@ const gameConfig = [
   },
   {
     choice: "Avoid the wizard",
-    prompt: "You sneak past the wizard and see a glow on the other side of cave. You follow the glow and find a room full of glowing roses. You observe them and they smell like apples. You pluck one from the ground to keep.",
+    prompt: "You sneak past the wizard and there are two paths in front of you. There is a room with a strange glow and an opening to the outside.",
+    options: ["Go to the glow", "Go outside"]
+  },
+  {
+    choice: "Go to the glow",
+    prompt: "You follow the glow to find a room full of glowing rose bushes and a patch of pumpkins. You observe the roses, touching the soft petals. You notice that they smell like apples. You pluck one from the ground to keep.",
     options: ["Stay", "Go home"]
   },
   {
@@ -42,6 +47,21 @@ const gameConfig = [
   {
     choice: "Go home",
     prompt: "You carefully exit the cave and walk home. You display your glowing rose in a glass case to remind you of your adventure. END",
+    options: ["Restart"]
+  },
+  {
+    choice: "Go outside",
+    prompt: "You walk outside, blinded by the bright sunlight. Your eyes adjust and you see 3 dragons in front of you! You scream.",
+    options: ["Fight", "Panic"]
+  },
+  {
+    choice: "Fight",
+    prompt: "You quickly grab a large bucket and rake from behind you, bracing yourself for the fight of your life. The dragons turn to look at you, but seem indifferent. You stand there, confused, as the smallest dragon walks up to you and purrs. It nuzzles against your leg and you pet it affectionately. END",
+    options: ["Restart"]
+  },
+  {
+    choice: "Panic",
+    prompt: "You stand frozen in place as the dragons turn to look at you. The wizard comes running from the cave and finds you. He explains that these dragons are his pets. He hands you a pumpkin to feed his vegan dragons. They approach you and you pet the beautiful creatures.",
     options: ["Restart"]
   },
   {
