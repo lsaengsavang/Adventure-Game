@@ -16,17 +16,27 @@ const gameConfig = [
   },
   {
     choice: "Talk to the wizard",
-    prompt: "You approach the wizard, Merlin, and he welcomes you into his cave. He shares that he has been residing in the cave to practice his spells and potion brewing. He says he is making a special brew and pours you a glass. He doesn't ",
+    prompt: "You approach the wizard, Merlin, and he welcomes you into his cave. He shares that he has been residing in the cave to practice his spells and potion brewing. He says he is making a special brew. He pours you a glass and offers it to you. He promises that it is nothing bad.",
     options: ["Drink it", "Refuse to drink it"]
   },
   {
     choice: "Drink it",
-    prompt: "You drink the potion. It tastes like a crisp glass of fresh apple juice. You feel your body tingling for a moment and you feel lighter. You start to levitate and fly! You thank the wizard for the potion and fly home. END",
+    prompt: "You drink the mysterious potion. It tastes like a crisp glass of fresh apple juice. You feel your body tingling for a moment and you feel lighter. You start to levitate and fly! You thank the wizard for the potion and fly home. END",
     options: ["Restart"]
   },
   {
     choice: "Refuse to drink it",
-    prompt: "He seems disappointed, but brushes it off. He tells you about his wizarding school and asks you to join him. You accept and you become wizard classmates. END",
+    prompt: `He seems disappointed, but brushes it off. He tells you about his connections to the wizarding school."You just have to know somebody." He asks you if you'd like to join.`,
+    options: ["Become a wizard", "Don't become a wizard"]
+  },
+  {
+    choice: "Become a wizard",
+    prompt: "You and Merlin attend wizarding school together. He excels in potion brewing, and you excel at spells and combat. The two of you help each other and graduate as top of your class!",
+    options: ["Restart"]
+  },
+  {
+    choice: "Don't become a wizard",
+    prompt: "You and Merlin talk about the magical world of fairies and leprechauns. He takes you to his cave backyard and you meet his 3 pet dragons. You become friends and he occasionally flies to your home to visit you.",
     options: ["Restart"]
   },
   {
