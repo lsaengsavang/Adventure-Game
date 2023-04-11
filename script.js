@@ -16,7 +16,7 @@ const gameConfig = [
   },
   {
     choice: "Talk to the wizard",
-    prompt: "You approach the wizard, Merlin, and he welcomes you into his cave. He shares that he has been residing in the cave to practice his spells and potion brewing. He says he is making a special brew. He pours you a glass and offers it to you. He promises that it is nothing bad.",
+    prompt: "You approach the wizard, Merlin, and he welcomes you into his cave. He shares that he has been residing in the cave to practice his spells and potion brewing. He says he is making a special brew. He pour a glass and offers it to you. He promises that it is nothing bad.",
     options: ["Drink it", "Refuse to drink it"]
   },
   {
@@ -106,7 +106,7 @@ const gameConfig = [
   },
   {
     choice: "Keep it to yourself",
-    prompt: "You and Sarah exchange stories. After a few hours, you say your goodbyes. You spend the next weeks searching the farm alone. You try to recall the description of the path from Sarah's story, but you struggle and never find the treasure.",
+    prompt: "You and Sarah exchange stories for a few hours, then you say your goodbyes. You spend the next weeks searching the farm alone. You try to recall the description of the path from Sarah's story, but you struggle and never find the treasure.",
     options: ["Restart"]
   },
   {
@@ -116,7 +116,7 @@ const gameConfig = [
   },
   {
     choice: "Follow Spike",
-    prompt: "He leads you to a little box on the ground. You hold him back, afraid of what the object might be. Upon further investigation, you discover it's a tiny house! You look closer and see a tiny flicker of light on the inside. Spike tries to push past you to get to the house. Do you let him get to house?",
+    prompt: "He leads you to a little box on the ground. You hold him back, afraid of what the object might be. Upon further investigation, you discover it's a tiny house! You look closer and see a tiny flicker of light on the inside. Spike tries to push past you to get to the house. Do you let him approach it?",
     options: ["Let him","Don't let him"]
   },
   {
@@ -151,7 +151,7 @@ const gameConfig = [
   },
   {
     choice: "Call Spike to come back",
-    prompt: "Spike comes running back to you. You continue walking and find a small home. You knock on the door, and a leprechaun opens the door! He invites you inside. His name is Albie, and he just finished baking an apple pie. He shares a slice with you, while he gives you a tour of his home. You see a room with a golden statues and gold coins.",
+    prompt: "Spike comes running back to you. You continue walking and find a small home. You knock on the door, and a leprechaun opens it! He invites you inside. His name is Albie, he just finished baking an apple pie. He shares a slice with you and he gives you a tour of his home. You see a room filled with a golden statues and gold coins.",
     options: ["Ask about the gold statues","Ask about the gold coins"]
   },
   {
